@@ -1,0 +1,291 @@
+The system is: Darwin - 20.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/rajdeepbandopadhyay/conda/bin/x86_64-apple-darwin13.4.0-clang 
+Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-isystem;/Users/rajdeepbandopadhyay/conda/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/3.21.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/rajdeepbandopadhyay/conda/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/3.21.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/rajdeepbandopadhyay/conda/bin/make -f Makefile cmTC_b13af/fast && /Users/rajdeepbandopadhyay/conda/bin/make  -f CMakeFiles/cmTC_b13af.dir/build.make CMakeFiles/cmTC_b13af.dir/build
+make[1]: Entering directory '/Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o
+/Users/rajdeepbandopadhyay/conda/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/rajdeepbandopadhyay/conda/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o -c /Users/rajdeepbandopadhyay/conda/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+clang version 12.0.1
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /Users/rajdeepbandopadhyay/conda/bin
+clang-12: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/Users/rajdeepbandopadhyay/conda/bin/clang-12" -cc1 -triple x86_64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -target-sdk-version=11.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -debugger-tuning=lldb -target-linker-version 530 -v -resource-dir /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1 -dependency-file CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /Users/rajdeepbandopadhyay/conda/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -fdebug-compilation-dir /Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o -x c /Users/rajdeepbandopadhyay/conda/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-apple-darwin20.6.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/rajdeepbandopadhyay/conda/include
+ /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_b13af
+/Users/rajdeepbandopadhyay/conda/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b13af.dir/link.txt --verbose=1
+/Users/rajdeepbandopadhyay/conda/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/rajdeepbandopadhyay/conda/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/rajdeepbandopadhyay/conda/lib -L/Users/rajdeepbandopadhyay/conda/lib -v -Wl,-v CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o -o cmTC_b13af 
+clang version 12.0.1
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /Users/rajdeepbandopadhyay/conda/bin
+ "/Users/rajdeepbandopadhyay/conda/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/rajdeepbandopadhyay/conda/lib/libLTO.12.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 11.3 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_b13af -L/Users/rajdeepbandopadhyay/conda/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/rajdeepbandopadhyay/conda/lib -v CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o -lSystem /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-609
+BUILD 21:07:21 Sep 14 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/rajdeepbandopadhyay/conda/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+make[1]: Leaving directory '/Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/rajdeepbandopadhyay/conda/include]
+    add: [/Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Users/rajdeepbandopadhyay/conda/include] ==> [/Users/rajdeepbandopadhyay/conda/include]
+  collapse include dir [/Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include] ==> [/Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+  implicit include dirs: [/Users/rajdeepbandopadhyay/conda/include;/Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-apple-darwin13\.4\.0-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Users/rajdeepbandopadhyay/conda/bin/make -f Makefile cmTC_b13af/fast && /Users/rajdeepbandopadhyay/conda/bin/make  -f CMakeFiles/cmTC_b13af.dir/build.make CMakeFiles/cmTC_b13af.dir/build]
+  ignore line: [make[1]: Entering directory '/Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/rajdeepbandopadhyay/conda/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/rajdeepbandopadhyay/conda/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o -c /Users/rajdeepbandopadhyay/conda/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 12.0.1]
+  ignore line: [Target: x86_64-apple-darwin13.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/rajdeepbandopadhyay/conda/bin]
+  ignore line: [clang-12: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/rajdeepbandopadhyay/conda/bin/clang-12" -cc1 -triple x86_64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -target-sdk-version=11.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -debugger-tuning=lldb -target-linker-version 530 -v -resource-dir /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1 -dependency-file CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /Users/rajdeepbandopadhyay/conda/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -fdebug-compilation-dir /Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o -x c /Users/rajdeepbandopadhyay/conda/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-apple-darwin20.6.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/rajdeepbandopadhyay/conda/include]
+  ignore line: [ /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_b13af]
+  ignore line: [/Users/rajdeepbandopadhyay/conda/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b13af.dir/link.txt --verbose=1]
+  ignore line: [/Users/rajdeepbandopadhyay/conda/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/rajdeepbandopadhyay/conda/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -pie -Wl -headerpad_max_install_names -Wl -dead_strip_dylibs -Wl -rpath /Users/rajdeepbandopadhyay/conda/lib -L/Users/rajdeepbandopadhyay/conda/lib -v -Wl -v CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o -o cmTC_b13af ]
+  ignore line: [clang version 12.0.1]
+  ignore line: [Target: x86_64-apple-darwin13.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/rajdeepbandopadhyay/conda/bin]
+  link line: [ "/Users/rajdeepbandopadhyay/conda/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/rajdeepbandopadhyay/conda/lib/libLTO.12.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 11.3 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_b13af -L/Users/rajdeepbandopadhyay/conda/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/rajdeepbandopadhyay/conda/lib -v CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o -lSystem /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/Users/rajdeepbandopadhyay/conda/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/rajdeepbandopadhyay/conda/lib/libLTO.12.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [11.0.0] ==> ignore
+    arg [11.3] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b13af] ==> ignore
+    arg [-L/Users/rajdeepbandopadhyay/conda/lib] ==> dir [/Users/rajdeepbandopadhyay/conda/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dead_strip_dylibs] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/Users/rajdeepbandopadhyay/conda/lib] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_b13af.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/rajdeepbandopadhyay/conda/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/rajdeepbandopadhyay/conda/lib] ==> [/Users/rajdeepbandopadhyay/conda/lib]
+  collapse library dir [/Users/rajdeepbandopadhyay/conda/lib] ==> [/Users/rajdeepbandopadhyay/conda/lib]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Users/rajdeepbandopadhyay/conda/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/rajdeepbandopadhyay/conda/bin/make -f Makefile cmTC_d9006/fast && /Users/rajdeepbandopadhyay/conda/bin/make  -f CMakeFiles/cmTC_d9006.dir/build.make CMakeFiles/cmTC_d9006.dir/build
+make[1]: Entering directory '/Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o
+/Users/rajdeepbandopadhyay/conda/bin/clang++   -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o -c /Users/rajdeepbandopadhyay/conda/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+clang version 12.0.1
+Target: x86_64-apple-darwin20.6.0
+Thread model: posix
+InstalledDir: /Users/rajdeepbandopadhyay/conda/bin
+clang-12: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/Users/rajdeepbandopadhyay/conda/bin/clang-12" -cc1 -triple x86_64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -target-sdk-version=11.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 530 -v -resource-dir /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1 -dependency-file CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/rajdeepbandopadhyay/conda/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -fdeprecated-macro -fdebug-compilation-dir /Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -o CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/rajdeepbandopadhyay/conda/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-apple-darwin20.6.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/rajdeepbandopadhyay/conda/bin/../include/c++/v1
+ /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_d9006
+/Users/rajdeepbandopadhyay/conda/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9006.dir/link.txt --verbose=1
+/Users/rajdeepbandopadhyay/conda/bin/clang++  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/rajdeepbandopadhyay/conda/lib -L/Users/rajdeepbandopadhyay/conda/lib -v -Wl,-v CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d9006 
+clang version 12.0.1
+Target: x86_64-apple-darwin20.6.0
+Thread model: posix
+InstalledDir: /Users/rajdeepbandopadhyay/conda/bin
+ "/usr/bin/ld" -demangle -lto_library /Users/rajdeepbandopadhyay/conda/lib/libLTO.12.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 11.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_d9006 -L/Users/rajdeepbandopadhyay/conda/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/rajdeepbandopadhyay/conda/lib -v CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 13:09:02 May 28 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Users/rajdeepbandopadhyay/conda/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+make[1]: Leaving directory '/Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/rajdeepbandopadhyay/conda/bin/../include/c++/v1]
+    add: [/Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Users/rajdeepbandopadhyay/conda/bin/../include/c++/v1] ==> [/Users/rajdeepbandopadhyay/conda/include/c++/v1]
+  collapse include dir [/Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include] ==> [/Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+  implicit include dirs: [/Users/rajdeepbandopadhyay/conda/include/c++/v1;/Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-apple-darwin13\.4\.0-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Users/rajdeepbandopadhyay/conda/bin/make -f Makefile cmTC_d9006/fast && /Users/rajdeepbandopadhyay/conda/bin/make  -f CMakeFiles/cmTC_d9006.dir/build.make CMakeFiles/cmTC_d9006.dir/build]
+  ignore line: [make[1]: Entering directory '/Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Users/rajdeepbandopadhyay/conda/bin/clang++   -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o -c /Users/rajdeepbandopadhyay/conda/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang version 12.0.1]
+  ignore line: [Target: x86_64-apple-darwin20.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/rajdeepbandopadhyay/conda/bin]
+  ignore line: [clang-12: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/rajdeepbandopadhyay/conda/bin/clang-12" -cc1 -triple x86_64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -target-sdk-version=11.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 530 -v -resource-dir /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1 -dependency-file CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/rajdeepbandopadhyay/conda/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -fdeprecated-macro -fdebug-compilation-dir /Users/rajdeepbandopadhyay/blamer3/src/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -o CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/rajdeepbandopadhyay/conda/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-apple-darwin20.6.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/rajdeepbandopadhyay/conda/bin/../include/c++/v1]
+  ignore line: [ /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_d9006]
+  ignore line: [/Users/rajdeepbandopadhyay/conda/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9006.dir/link.txt --verbose=1]
+  ignore line: [/Users/rajdeepbandopadhyay/conda/bin/clang++  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -pie -Wl -headerpad_max_install_names -Wl -dead_strip_dylibs -Wl -rpath /Users/rajdeepbandopadhyay/conda/lib -L/Users/rajdeepbandopadhyay/conda/lib -v -Wl -v CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d9006 ]
+  ignore line: [clang version 12.0.1]
+  ignore line: [Target: x86_64-apple-darwin20.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/rajdeepbandopadhyay/conda/bin]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /Users/rajdeepbandopadhyay/conda/lib/libLTO.12.dylib -dynamic -arch x86_64 -platform_version macos 11.0.0 11.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_d9006 -L/Users/rajdeepbandopadhyay/conda/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/rajdeepbandopadhyay/conda/lib -v CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/rajdeepbandopadhyay/conda/lib/libLTO.12.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [11.0.0] ==> ignore
+    arg [11.3] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d9006] ==> ignore
+    arg [-L/Users/rajdeepbandopadhyay/conda/lib] ==> dir [/Users/rajdeepbandopadhyay/conda/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dead_strip_dylibs] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/Users/rajdeepbandopadhyay/conda/lib] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_d9006.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/rajdeepbandopadhyay/conda/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Users/rajdeepbandopadhyay/conda/lib/clang/12.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/rajdeepbandopadhyay/conda/lib] ==> [/Users/rajdeepbandopadhyay/conda/lib]
+  collapse library dir [/Users/rajdeepbandopadhyay/conda/lib] ==> [/Users/rajdeepbandopadhyay/conda/lib]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/Users/rajdeepbandopadhyay/conda/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+
+

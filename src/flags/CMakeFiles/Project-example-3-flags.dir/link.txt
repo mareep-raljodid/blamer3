@@ -1,0 +1,2 @@
+/Users/rajdeepbandopadhyay/conda/bin/llvm-ar qc libProject-example-3-flags.a CMakeFiles/Project-example-3-flags.dir/flags.o
+/Users/rajdeepbandopadhyay/conda/bin/llvm-ranlib libProject-example-3-flags.a
